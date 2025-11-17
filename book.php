@@ -20,20 +20,20 @@
         padding: 8px 0; /* 按钮的垂直填充 */
         font-size: 30px; /* 字体大小，可根据需要调整 */
 }
-        .content {
+        。content {
         padding: 20px;
         border: 1px solid #ddd;
         padding-bottom: 60px; /* 调整这个值以确保足够的空间 */
         font-size: 30px;
          }
-        .button {
+        。button {
             margin: 5px;
             padding: 5px 10px;
             background-color: #f0f0f0;
             border: 1px solid #ddd;
             cursor: pointer;
         }
-        .title {
+        。title {
             font-size: 30px;
             text-align: center;
             margin: 10px 0;
@@ -92,7 +92,7 @@
     // 章节切换功能
     $('#prevChapter').click(function() {
         saveBookProgress(bookUrl, chapterIndex);
-	window.scrollTo(0， 0);
+	window.scrollTo(0，0);
         if (chapterIndex > 0) {
             chapterIndex -= 1;
             updateContentAndTitle();
